@@ -1,0 +1,34 @@
+<h1>Form Input Demo</h1>
+<hr>
+<h2>Please Login</h2>
+<form action="abc.html" method="POST">
+<h3>
+   Username <input type="text name="t1"><br>
+   Password <input type="password" name="t2"><br>
+	<input type="submit" value="LOGIN">
+	<input type="reset" value="CLEAR">
+	<input type="button" value="EXIT">
+</h3>
+</form>
+<hr>
+<h2>Please Register</h2>
+<form action="abc.html">
+<h3>
+   <label>Username</label> <input type="text name="uname" required><br>
+   <label>Password</label> <input type="password" name="pwd" required minLength=5 maxLength=8><br>
+   Confirm <input type="password" name="cpwd"><br> 
+   AGE <input type="number" name"AGE" min=21 max=60><br> 
+  Qualification <select name="qual" multiple>
+			<option value="Engineer">BE</option>
+			<option>BTECH</option>
+			<option>MBA</option>
+    			</select><br><br>
+  Date of Birth <input type="date" name="dob"><br>
+  Gender <input type="radio" name="G" value="male">Male <input type="radio" name="G" value="female">Female<br>
+  <input type="checkbox" name="married" checked>Employed<br>
+      <br>
+	<input type="submit" value="REGISTER">
+	<input type="reset" value="CLEAR">
+	<input type="button" value="EXIT">
+</h3>
+</form>
